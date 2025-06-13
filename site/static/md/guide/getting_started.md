@@ -150,7 +150,7 @@ The [`data-show`](/reference/attribute_plugins#data-show) attribute can be used 
 <button data-show="$input != ''">Save</button>
 ```
 
-This results in the button being visible only when the input is _not_ an empty string (this could also be written as `!input`).
+This results in the button being visible only when the input is _not_ an empty string (this could also be written as `$input`).
 
 <div class="flex items-start justify-between p-8 alert">
     <div class="flex flex-col gap-4">
